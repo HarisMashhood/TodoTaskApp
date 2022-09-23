@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: blueviolet;
+  height: 100vh;
+  color: hsl(235, 24%, 19%);
+  border: 15px solid hsl(235, 24%, 19%);
+}
+.addedtask {
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.formstyle {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.check-mark {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid grey;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-mark:hover {
+  border-color: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
